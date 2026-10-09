@@ -1,0 +1,46 @@
+# Meraklı Fındık · Buffer kuyruğunu doldur + yayınlanmış medyayı temizle (bilgisayar kapalıyken de çalışır)
+# Saatler UTC: 06:00 = 09:00 TR, 19:00 = 22:00 TR. Elle çalıştırma: Actions → buffer-doldur → Run workflow
+name: buffer-doldur
+on:
+  schedule:
+    - cron: "0 6,19 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: buffer-doldur
+  cancel-in-progress: false
+jobs:
+  doldur:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kuyruğu doldur (onaylı taslaklar → zamanlı)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python otomasyon/pilot_plan.py schedule
+      - name: Hatalı gönderi kontrolü
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python otomasyon/buffer.py call list_posts '{"organizationId":"6ac67630aa0fa7453ca4d570","status":["error"],"first":50}'
+      - name: Yayınlanmış medyayı temizle
+        run: python otomasyon/medya_temizle.py
+      - name: Durumu kaydet
+        run: |
+          git config user.name "findik-otomasyon"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "otomasyon: kuyruk + medya temizliği" && git push)
+      - name: Depo büyüdüyse geçmişi sıfırla (700 MB üstü)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SIZE=$(gh api repos/${{ github.repository }} --jq .size)
+          echo "depo boyutu: ${SIZE} KB"
+          if [ "$SIZE" -gt 700000 ]; then
+            git checkout --orphan yeni && git add -A && git commit -qm "medya: geçmiş sıfırlandı (boyut ${SIZE} KB)"
+            git push -f origin yeni:main
+          fi
