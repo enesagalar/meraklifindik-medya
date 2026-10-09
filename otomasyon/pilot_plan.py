@@ -163,6 +163,18 @@ Kaynak: NASA · NOAA · National Geographic
 #merakliFindik #meraktesti #genelkültür #çocuklaraBilim #anneBaba"""),
 ]
 
+# ---------- Kanca testleri (2026-10-09; sadece TikTok, 15:00; kaynak videos/K0N-*/, ses mevcut VO'dan tam cümleler) ----------
+KANCA = [
+ ("2026-10-10", "15:00", "K01", 300, "Şimşek Güneş'ten sıcak!", """Şimşek, Güneş'in yüzeyinden yaklaşık 5 kat daha sıcak! ⚡ Sonra da… GÜM! 🔊
+Gök gürültüsü neden hep şimşekten sonra gelir? Tahminini yorumlara yaz 👇
+Kaynak: NOAA
+#merakliFindik #şimşek #neden #çocuklaraBilim #bilim"""),
+ ("2026-10-11", "15:00", "K02", 1200, "1 damlaya 1 milyon damlacık", """Tek bir yağmur damlasına 1 milyon bulut damlacığı sığıyor! 💧 Peki bulutlar neden üstümüze düşmüyor? Cevap bir tüyde 🪶
+Tahminini yorumlara yaz 👇
+Kaynak: NOAA SciJinks
+#merakliFindik #bulutlar #neden #çocuklaraBilim #bilim"""),
+]
+
 def yt_desc(t):
     lines = [l for l in t.splitlines() if "yorum" not in l.lower()]
     tags = lines.pop() if lines and lines[-1].startswith("#") else ""
@@ -198,6 +210,11 @@ def build():
         for ch, meta, tag in ((IG, {"instagram": {"type": "post", "shouldShareToFeed": True}}, "ig"), (TT, {"tiktok": {"title": title}}, "tt")):
             P.append({"key": f"kr-{pid}-{tag}", "when": at, "label": f"Kaydırmalı {title} ({tag}, {n} kart)", "args": {"channelId": ch, "schedulingType": "automatic",
                 "mode": "customScheduled", "dueAt": at, "text": cap, "assets": imgs, "metadata": meta}})
+    for day, hm, kid, cover, title, cap in KANCA:
+        at = f"{day}T{hm}:00{TZ}"
+        P.append({"key": f"kanca-{kid}-tt", "when": at, "label": f"Kanca {kid} {title} (TikTok)", "args": {"channelId": TT, "schedulingType": "automatic",
+            "mode": "customScheduled", "dueAt": at, "text": cap, "assets": [{"video": {"url": f"{BASE}/v/{kid}.mp4", "metadata": {"thumbnailOffset": cover}}}],
+            "metadata": {"tiktok": {"isAiGenerated": True}}}})
     P.sort(key=lambda p: p["when"])
     return P
 
@@ -236,8 +253,16 @@ if __name__ == "__main__":
                 s = st.get(p["key"])
                 if not s or s["status"] != "draft": continue
                 ch = p["args"]["channelId"]
-                if busy.get(ch, 0) >= lim: continue
                 if p["when"] <= now: print("GEÇMİŞ", p["key"]); continue
+                if busy.get(ch, 0) >= lim:
+                    # öncelik: kuyruk doluysa ve bu taslak, kuyruktaki en uzak gönderiden ERKENSE → en uzak olanı taslağa geri al, yerine bunu koy
+                    later = [q for q in P if q["args"]["channelId"] == ch and st.get(q["key"], {}).get("status") == "scheduled" and q["when"] > p["when"] and q["when"] > now]
+                    if not later: continue
+                    far = max(later, key=lambda q: q["when"]); fs = st[far["key"]]
+                    fa = {k: v for k, v in far["args"].items() if k != "channelId"}
+                    r2 = b.rpc("tools/call", {"name": "edit_post", "arguments": dict(fa, postId=fs["id"], saveToDraft=True)})
+                    if r2.get("isError"): print("ATLANDI(öncelik)", far["key"], r2["content"][0].get("text", "")[:200]); continue
+                    fs["status"] = "draft"; busy[ch] -= 1; save_state(st); print("taslağa alındı (yer açmak için)", far["key"])
                 a = {k: v for k, v in p["args"].items() if k != "channelId"}  # edit = tüm gönderi yeniden doğrulanır
                 res = b.rpc("tools/call", {"name": "edit_post", "arguments": dict(a, postId=s["id"], saveToDraft=False)})
                 txt = "".join(c.get("text", "") for c in res.get("content", []))

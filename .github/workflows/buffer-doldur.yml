@@ -1,9 +1,9 @@
 # Meraklı Fındık · Buffer kuyruğunu doldur + yayınlanmış medyayı temizle (bilgisayar kapalıyken de çalışır)
-# Saatler UTC: 06:00 = 09:00 TR, 19:00 = 22:00 TR. Elle çalıştırma: Actions → buffer-doldur → Run workflow
+# Saatte bir (her saatin 7. dakikası, UTC) — boşalan Buffer yerleri hemen dolsun. Elle çalıştırma: Actions → buffer-doldur → Run workflow
 name: buffer-doldur
 on:
   schedule:
-    - cron: "0 6,19 * * *"
+    - cron: "7 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
