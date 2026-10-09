@@ -84,6 +84,9 @@ TITLE = {"000": "Merhaba, ben Fındık! 🐿️", "001": "Gökyüzü neden mavi?
          "008": "Gökkuşağı nasıl oluşur? (Sezon finali)"}
 COVER = {"000": 2000, "001": 2900, "002": 3900, "003": 4900, "004": 4000, "005": 4000, "006": 4800, "007": 4000, "008": 4400}
 
+# Revize video dosyaları (2026-10-09: açılış kuralı + −14 LUFS; eski v/NNN.mp4 kaldırıldı)
+VFILE = {n: n + "-r2" for n in ("003", "004", "005", "006", "007", "008")}
+
 # ---------- statik gönderiler (IG; TikTok'ta foto gönderisi) ----------
 STATIC = {
 "carousel-001": (7, "Merak Defteri · Sayfa 1", """Gökyüzü neden mavi? Merak Defteri'nin ilk sayfası 📓
@@ -170,7 +173,7 @@ def build():
     for day, st, vids, stories in DAYS:
         at = lambda hm: f"{day}T{hm}:00{TZ}"
         for hm, no in vids:
-            v = {"video": {"url": f"{BASE}/v/{no}.mp4", "metadata": {"thumbnailOffset": COVER[no]}}}
+            v = {"video": {"url": f"{BASE}/v/{VFILE.get(no, no)}.mp4", "metadata": {"thumbnailOffset": COVER[no]}}}
             P.append({"key": f"{no}-ig", "when": at(hm), "label": f"Reels {no} {TITLE[no]}", "args": {"channelId": IG, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at(hm),
                 "text": CAP[no], "assets": [v], "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True, "isAiGenerated": True}}}})
             P.append({"key": f"{no}-tt", "when": at(hm), "label": f"TikTok {no}", "args": {"channelId": TT, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at(hm),
