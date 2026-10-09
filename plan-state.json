@@ -191,7 +191,7 @@
  },
  "005-tt": {
   "id": "6ac6b6a750a88771fef9e7af",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-12T19:30:00+03:00"
  },
  "005-yt": {
@@ -221,7 +221,7 @@
  },
  "tek-simsek-mi-gurultu-mu-tt": {
   "id": "6ac6b6aac16f98d294cc4dfb",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-13T12:30:00+03:00"
  },
  "006-ig": {
@@ -231,7 +231,7 @@
  },
  "006-tt": {
   "id": "6ac6b6ab342c340c7ecf8f03",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-13T19:30:00+03:00"
  },
  "006-yt": {
@@ -371,7 +371,7 @@
  },
  "kr-mt-hayvanlar-tt": {
   "id": "6ac91ffca5e49fef9bbd9744",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-12T17:00:00+03:00"
  },
  "kr-dy-hayvanlar-ig": {
@@ -413,5 +413,15 @@
   "id": "6ac92000810582311aeb7d16",
   "status": "draft",
   "when": "2026-10-16T17:00:00+03:00"
+ },
+ "kanca-K01-tt": {
+  "id": "6ac94d28ed92ed8fa5a89096",
+  "status": "scheduled",
+  "when": "2026-10-10T15:00:00+03:00"
+ },
+ "kanca-K02-tt": {
+  "id": "6ac94d29f91f772d456fe242",
+  "status": "scheduled",
+  "when": "2026-10-11T15:00:00+03:00"
  }
 }
