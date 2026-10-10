@@ -161,12 +161,12 @@
  },
  "story-004-b-video": {
   "id": "6ac6b6a3ef3f059ff9fb23c8",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-11T19:40:00+03:00"
  },
  "story-004-c-cevap": {
   "id": "6ac6b6a4810b7f5f6090b18c",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-11T21:30:00+03:00"
  },
  "story-005-a-soru": {
@@ -191,7 +191,7 @@
  },
  "005-tt": {
   "id": "6ac6b6a750a88771fef9e7af",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-12T19:30:00+03:00"
  },
  "005-yt": {
@@ -221,7 +221,7 @@
  },
  "tek-simsek-mi-gurultu-mu-tt": {
   "id": "6ac6b6aac16f98d294cc4dfb",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-13T12:30:00+03:00"
  },
  "006-ig": {
