@@ -95,17 +95,34 @@ Videoyu izlediniz mi? Akşam çocuğunuzla konuşmak için kaydedin 📌 Kaydır
 "carousel-ebeveyn-rehberi-gokyuzu": (5, "Ebeveyn rehberi", """Çocuğunuz "Gökyüzü neden mavi?" diye sorarsa yaşına göre 1 cümlelik cevaplar 👇
 5–7 yaş, 8–10 yaş ve 11+ için ayrı ayrı. Kaydedin, eşinize gönderin ✈️
 #merakliFindik #çocuklaraBilim #anneBaba #çocukEğitimi #neden"""),
+"carousel-merak-defteri-003": (6, "Merak Defteri · Sayfa 3", """Bulutlar neden beyaz? Merak Defteri'nin 3. sayfası 📓
+Videoyu izlediniz mi? Kaydırın; akşam çocuğunuzla konuşmak için kaydedin 📌
+Kaynak: NOAA SciJinks
+#merakliFindik #çocuklaraBilim #neden #bulutlar #anneBaba"""),
+"carousel-merak-defteri-004": (6, "Merak Defteri · Sayfa 4", """Bulutlar neden düşmüyor? Merak Defteri'nin 4. sayfası 📓
+Videoyu izlediniz mi? Kaydırın; akşam çocuğunuzla konuşmak için kaydedin 📌
+Kaynak: NOAA SciJinks · UCAR
+#merakliFindik #çocuklaraBilim #neden #bulutlar #anneBaba"""),
+"carousel-merak-defteri-006": (6, "Merak Defteri · Sayfa 6", """Şimşek neden çakar? Merak Defteri'nin 6. sayfası 📓
+Videoyu izlediniz mi? Kaydırın; akşam çocuğunuzla konuşmak için kaydedin 📌
+Kaynak: NOAA National Severe Storms Laboratory
+#merakliFindik #çocuklaraBilim #neden #şimşek #anneBaba"""),
+"carousel-merak-defteri-008": (7, "Merak Defteri · Sayfa 8", """Gökkuşağı nasıl oluşur? Merak Defteri'nin son sayfası 📓 Defter doldu: 8 soru, 8 cevap!
+Hangi sayfa en sevdiğiniz oldu? Yorumlara yazın 👇 Kaydedin 📌
+Kaynak: NOAA SciJinks · Met Office
+#merakliFindik #çocuklaraBilim #neden #gökkuşağı #anneBaba"""),
 "tek-sence-neden": (0, "Sence neden?", """Bulutlarda tonlarca su var… peki neden üstümüze düşmüyor? ☁️
 A mı, B mi? Çocuğunuzun cevabını yorumlara yazın; doğru cevap akşamki videoda 🐿️
 #merakliFindik #neden #bulutlar #çocuklaraBilim #anneBaba"""),
-"carousel-evde-dene-kavanozda-yagmur": (7, "Evde Dene", """Evde Dene: kavanozda yağmur 🫙 5 dakikalık mutfak deneyi!
+"carousel-evde-dene-kavanozda-yagmur": (7, "Merak Defteri · Sayfa 5", """Merak Defteri · sayfa 5: yağmurun nasıl oluştuğunu kavanozda görün 🫙 5 dakikalık mutfak deneyi!
 ⚠️ Sıcak suyu bir yetişkin döksün, kaynar su kullanmayın. Denediyseniz ne gördüğünüzü yorumlara yazın 👇
 #merakliFindik #evdeDeney #çocuklaraBilim #yağmur #anneBaba"""),
 "tek-simsek-mi-gurultu-mu": (0, "Fırtınada hangisi önce?", """Fırtınada hangisi önce gelir: şimşek mi, gök gürültüsü mü? ⚡
 Çocuğunuzla tahmin edin, cevabınızı yorumlara yazın 👇 Cevap bu hafta Merak Defteri'nde!
 #merakliFindik #neden #şimşek #çocuklaraBilim #anneBaba"""),
-"carousel-uc-saniye-kurali": (5, "3 saniye kuralı", """Fırtına ne kadar uzakta? 3 saniye kuralıyla saniye sayarak bulun ⚡
+"carousel-uc-saniye-kurali": (5, "Merak Defteri · Sayfa 7", """Merak Defteri · sayfa 7: fırtına ne kadar uzakta? 3 saniye kuralıyla saniye sayarak bulun ⚡
 Unutmayın: fırtınada içeride kalın! Kaydedin 📌
+Kaynak: NOAA National Weather Service
 #merakliFindik #çocuklaraBilim #fırtına #neden #anneBaba"""),
 "tek-gokkusagi-gunes": (0, "Güneş nerede?", """Gökkuşağını görmek için güneş nerede olmalı: önümüzde mi, arkamızda mı? 🌈
 Tahmininizi yorumlara yazın; cevap akşamki sezon finalinde!
@@ -122,12 +139,12 @@ DAYS = [
  ("2026-10-08", None, [("12:30", "000"), ("19:30", "001")], [("13:00", "story-merhaba"), ("16:00", "story-001-a-soru"), ("19:40", "story-001-b-video"), ("21:30", "story-001-c-cevap")]),
  ("2026-10-09", "carousel-001", [("19:30", "002")], [("10:00", "story-002-a-soru"), ("19:40", "story-002-b-video"), ("21:30", "story-002-c-cevap")]),
  ("2026-10-10", "carousel-ebeveyn-rehberi-gokyuzu", [("19:30", "003")], [("10:00", "story-003-a-soru"), ("19:40", "story-003-b-video"), ("21:30", "story-003-c-cevap")]),
- ("2026-10-11", "tek-sence-neden", [("19:30", "004")], [("10:00", "story-004-a-soru"), ("19:40", "story-004-b-video"), ("21:30", "story-004-c-cevap")]),
- ("2026-10-12", "carousel-evde-dene-kavanozda-yagmur", [("19:30", "005")], [("10:00", "story-005-a-soru"), ("19:40", "story-005-b-video"), ("21:30", "story-005-c-cevap")]),
- ("2026-10-13", "tek-simsek-mi-gurultu-mu", [("19:30", "006")], [("10:00", "story-006-a-soru"), ("19:40", "story-006-b-video"), ("21:30", "story-006-c-cevap")]),
- ("2026-10-14", "carousel-uc-saniye-kurali", [("19:30", "007")], [("10:00", "story-007-a-soru"), ("19:40", "story-007-b-video"), ("21:30", "story-007-c-cevap")]),
- ("2026-10-15", "tek-gokkusagi-gunes", [("19:30", "008")], [("10:00", "story-008-a-soru"), ("19:40", "story-008-b-video"), ("21:30", "story-008-c-cevap")]),
- ("2026-10-16", "carousel-sezon1-ozet", [], [("13:00", "story-sezon2")]),
+ ("2026-10-11", "carousel-merak-defteri-003", [("19:30", "004")], [("10:00", "story-004-a-soru"), ("19:40", "story-004-b-video"), ("21:30", "story-004-c-cevap")]),
+ ("2026-10-12", "carousel-merak-defteri-004", [("19:30", "005")], [("10:00", "story-005-a-soru"), ("19:40", "story-005-b-video"), ("21:30", "story-005-c-cevap")]),
+ ("2026-10-13", "carousel-evde-dene-kavanozda-yagmur", [("19:30", "006")], [("10:00", "story-006-a-soru"), ("19:40", "story-006-b-video"), ("21:30", "story-006-c-cevap")]),
+ ("2026-10-14", "carousel-merak-defteri-006", [("19:30", "007")], [("10:00", "story-007-a-soru"), ("19:40", "story-007-b-video"), ("21:30", "story-007-c-cevap")]),
+ ("2026-10-15", "carousel-uc-saniye-kurali", [("19:30", "008")], [("10:00", "story-008-a-soru"), ("19:40", "story-008-b-video"), ("21:30", "story-008-c-cevap")]),
+ ("2026-10-16", "carousel-merak-defteri-008", [], [("13:00", "story-sezon2")]),
 ]
 
 # ---------- Kaydırmalı formatlar (2026-10-09 kullanıcı kararı; kaynak studio/karusel/, görseller yayin/kr/<id>-NN.jpg, 4:5) ----------
@@ -149,7 +166,7 @@ Kaynak: National Geographic · Smithsonian · WWF
 Kaç tanesini bildin? Puanını yaz, bilmeyen birine gönder ✈️ Kaydet 📌
 Kaynak: National Geographic · Smithsonian
 #merakliFindik #doğrumuyanlışmı #hayvanlar #çocuklaraBilim #anneBaba"""),
- ("2026-10-14", "17:00", "hm-uzay", 7, "Hiç merak ettin mi? Uzay", """Gördüğün Güneş aslında 8 dakika önceki Güneş! ☀️ Uzayla ilgili 5 soru ve cevabı, kaydır 👉
+ ("2026-10-14", "17:00", "hm-uzay", 7, "Hiç merak ettin mi? Uzay", """Güneş'in içine yaklaşık 1,3 milyon Dünya sığar! ☀️ Uzayla ilgili 5 soru ve cevabı, kaydır 👉
 Hangisi aklını uçurdu? Yorumlara yaz; sıradaki "Neden?"i sen seç 👇 Kaydet 📌
 Kaynak: NASA
 #merakliFindik #hiçmerakettinmi #uzay #çocuklaraBilim #anneBaba"""),
