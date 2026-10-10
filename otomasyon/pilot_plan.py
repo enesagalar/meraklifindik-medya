@@ -204,12 +204,12 @@ def build():
         for hm, no in vids:
             v = {"video": {"url": f"{BASE}/v/{VFILE.get(no, no)}.mp4", "metadata": {"thumbnailOffset": COVER[no]}}}
             P.append({"key": f"{no}-ig", "when": at(hm), "label": f"Reels {no} {TITLE[no]}", "args": {"channelId": IG, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at(hm),
-                "text": CAP[no], "assets": [v], "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True, "isAiGenerated": True}}}})
+                "text": CAP[no], "assets": [v], "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True, "isAiGenerated": False}}}})
             P.append({"key": f"{no}-tt", "when": at(hm), "label": f"TikTok {no}", "args": {"channelId": TT, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at(hm),
-                "text": CAP[no], "assets": [v], "metadata": {"tiktok": {"isAiGenerated": True}}}})
+                "text": CAP[no], "assets": [v], "metadata": {"tiktok": {"isAiGenerated": False}}}})
             P.append({"key": f"{no}-yt", "when": at(hm), "label": f"Shorts {no}", "args": {"channelId": YT, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at(hm),
                 "text": yt_desc(CAP[no]), "assets": [v], "metadata": {"youtube": {"title": f"{TITLE[no]} | Meraklı Fındık #shorts", "categoryId": "27",
-                "privacy": "public", "madeForKids": True, "notifySubscribers": True, "embeddable": True, "license": "youtube"}}}})
+                "privacy": "public", "madeForKids": True, "isAiGenerated": False, "notifySubscribers": True, "embeddable": True, "license": "youtube"}}}})
         if st:
             n, title, cap = STATIC[st]
             files = [f"{st}-{i}.jpg" for i in range(1, n + 1)] if n else [f"{st}.jpg"]
@@ -231,7 +231,7 @@ def build():
         at = f"{day}T{hm}:00{TZ}"
         P.append({"key": f"kanca-{kid}-tt", "when": at, "label": f"Kanca {kid} {title} (TikTok)", "args": {"channelId": TT, "schedulingType": "automatic",
             "mode": "customScheduled", "dueAt": at, "text": cap, "assets": [{"video": {"url": f"{BASE}/v/{kid}.mp4", "metadata": {"thumbnailOffset": cover}}}],
-            "metadata": {"tiktok": {"isAiGenerated": True}}}})
+            "metadata": {"tiktok": {"isAiGenerated": False}}}})
     P.sort(key=lambda p: p["when"])
     return P
 
