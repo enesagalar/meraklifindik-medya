@@ -211,7 +211,7 @@
  },
  "006-tt": {
   "id": "6ac6b6ab342c340c7ecf8f03",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-13T19:30:00+03:00"
  },
  "006-yt": {
@@ -326,7 +326,7 @@
  },
  "kr-mt-hayvanlar-ig": {
   "id": "6ac91ffcea458ceb9a55756d",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-12T17:00:00+03:00"
  },
  "kr-mt-hayvanlar-tt": {
@@ -396,7 +396,7 @@
  },
  "carousel-merak-defteri-004-ig": {
   "id": "6aca5c12bba9419ccb0892b3",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-12T12:30:00+03:00"
  },
  "carousel-merak-defteri-004-tt": {
