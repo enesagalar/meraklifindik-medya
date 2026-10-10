@@ -134,16 +134,6 @@
   "status": "scheduled",
   "when": "2026-10-11T10:00:00+03:00"
  },
- "tek-sence-neden-ig": {
-  "id": "6ac6b6a0342c340c7ecf8d4a",
-  "status": "scheduled",
-  "when": "2026-10-11T12:30:00+03:00"
- },
- "tek-sence-neden-tt": {
-  "id": "6ac6b6a1810b7f5f6090b149",
-  "status": "scheduled",
-  "when": "2026-10-11T12:30:00+03:00"
- },
  "004-ig": {
   "id": "6ac6b6a2ef3f059ff9fb235a",
   "status": "scheduled",
@@ -171,18 +161,18 @@
  },
  "story-005-a-soru": {
   "id": "6ac6b6a4810b7f5f6090b1aa",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-12T10:00:00+03:00"
  },
  "carousel-evde-dene-kavanozda-yagmur-ig": {
   "id": "6ac6b6a5810b7f5f6090b1c9",
   "status": "draft",
-  "when": "2026-10-12T12:30:00+03:00"
+  "when": "2026-10-13T12:30:00+03:00"
  },
  "carousel-evde-dene-kavanozda-yagmur-tt": {
   "id": "6ac6b6a5810b7f5f6090b1e7",
   "status": "scheduled",
-  "when": "2026-10-12T12:30:00+03:00"
+  "when": "2026-10-13T12:30:00+03:00"
  },
  "005-ig": {
   "id": "6ac6b6a6b20a10e4de2d730b",
@@ -213,16 +203,6 @@
   "id": "6ac6b6a9342c340c7ecf8e97",
   "status": "draft",
   "when": "2026-10-13T10:00:00+03:00"
- },
- "tek-simsek-mi-gurultu-mu-ig": {
-  "id": "6ac6b6a9810b7f5f6090b26d",
-  "status": "draft",
-  "when": "2026-10-13T12:30:00+03:00"
- },
- "tek-simsek-mi-gurultu-mu-tt": {
-  "id": "6ac6b6aac16f98d294cc4dfb",
-  "status": "scheduled",
-  "when": "2026-10-13T12:30:00+03:00"
  },
  "006-ig": {
   "id": "6ac6b6ab50a88771fef9e85e",
@@ -257,12 +237,12 @@
  "carousel-uc-saniye-kurali-ig": {
   "id": "6ac6b6afb20a10e4de2d7423",
   "status": "draft",
-  "when": "2026-10-14T12:30:00+03:00"
+  "when": "2026-10-15T12:30:00+03:00"
  },
  "carousel-uc-saniye-kurali-tt": {
   "id": "6ac6b6af810b7f5f6090b340",
   "status": "draft",
-  "when": "2026-10-14T12:30:00+03:00"
+  "when": "2026-10-15T12:30:00+03:00"
  },
  "007-ig": {
   "id": "6ac6b6b0ef3f059ff9fb2549",
@@ -294,16 +274,6 @@
   "status": "draft",
   "when": "2026-10-15T10:00:00+03:00"
  },
- "tek-gokkusagi-gunes-ig": {
-  "id": "6ac6b6b3342c340c7ecf8ff9",
-  "status": "draft",
-  "when": "2026-10-15T12:30:00+03:00"
- },
- "tek-gokkusagi-gunes-tt": {
-  "id": "6ac6b6b3b20a10e4de2d74a3",
-  "status": "draft",
-  "when": "2026-10-15T12:30:00+03:00"
- },
  "008-ig": {
   "id": "6ac6b6b4810b7f5f6090b3be",
   "status": "draft",
@@ -328,16 +298,6 @@
   "id": "6ac6b6b6ef3f059ff9fb25f0",
   "status": "draft",
   "when": "2026-10-15T21:30:00+03:00"
- },
- "carousel-sezon1-ozet-ig": {
-  "id": "6ac6b6b7b20a10e4de2d7513",
-  "status": "draft",
-  "when": "2026-10-16T12:30:00+03:00"
- },
- "carousel-sezon1-ozet-tt": {
-  "id": "6ac6b6b7c16f98d294cc4f64",
-  "status": "draft",
-  "when": "2026-10-16T12:30:00+03:00"
  },
  "story-sezon2": {
   "id": "6ac6b6b8342c340c7ecf9095",
@@ -381,7 +341,7 @@
  },
  "kr-dy-hayvanlar-tt": {
   "id": "6ac91ffda5e49fef9bbd976b",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-13T17:00:00+03:00"
  },
  "kr-hm-uzay-ig": {
@@ -423,5 +383,45 @@
   "id": "6ac94d29f91f772d456fe242",
   "status": "scheduled",
   "when": "2026-10-11T15:00:00+03:00"
+ },
+ "carousel-merak-defteri-003-ig": {
+  "id": "6aca5c11f91f772d459a6dac",
+  "status": "scheduled",
+  "when": "2026-10-11T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-003-tt": {
+  "id": "6aca5c12f91f772d459a6dca",
+  "status": "scheduled",
+  "when": "2026-10-11T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-004-ig": {
+  "id": "6aca5c12bba9419ccb0892b3",
+  "status": "draft",
+  "when": "2026-10-12T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-004-tt": {
+  "id": "6aca5c12b07d37ac9779686e",
+  "status": "scheduled",
+  "when": "2026-10-12T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-006-ig": {
+  "id": "6aca5c13d9cab260a7cbc749",
+  "status": "draft",
+  "when": "2026-10-14T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-006-tt": {
+  "id": "6aca5c13c4de2d2b12306f94",
+  "status": "draft",
+  "when": "2026-10-14T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-008-ig": {
+  "id": "6aca5c14f91f772d459a6e83",
+  "status": "draft",
+  "when": "2026-10-16T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-008-tt": {
+  "id": "6aca5c14bba9419ccb0892d9",
+  "status": "draft",
+  "when": "2026-10-16T12:30:00+03:00"
  }
 }
