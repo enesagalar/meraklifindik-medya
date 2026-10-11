@@ -196,12 +196,12 @@
  },
  "story-005-c-cevap": {
   "id": "6ac6b6a9b20a10e4de2d7377",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-12T21:30:00+03:00"
  },
  "story-006-a-soru": {
   "id": "6ac6b6a9342c340c7ecf8e97",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-13T10:00:00+03:00"
  },
  "006-ig": {
@@ -251,7 +251,7 @@
  },
  "007-tt": {
   "id": "6ac6b6b0c16f98d294cc4ec5",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-14T19:30:00+03:00"
  },
  "007-yt": {
@@ -351,7 +351,7 @@
  },
  "kr-hm-uzay-tt": {
   "id": "6ac91ffeea458ceb9a557611",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-14T17:00:00+03:00"
  },
  "kr-dy-vucut-ig": {
@@ -411,7 +411,7 @@
  },
  "carousel-merak-defteri-006-tt": {
   "id": "6aca5c13c4de2d2b12306f94",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-14T12:30:00+03:00"
  },
  "carousel-merak-defteri-008-ig": {
