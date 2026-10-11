@@ -166,7 +166,7 @@
  },
  "carousel-evde-dene-kavanozda-yagmur-ig": {
   "id": "6ac6b6a5810b7f5f6090b1c9",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-13T12:30:00+03:00"
  },
  "carousel-evde-dene-kavanozda-yagmur-tt": {
@@ -206,7 +206,7 @@
  },
  "006-ig": {
   "id": "6ac6b6ab50a88771fef9e85e",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-13T19:30:00+03:00"
  },
  "006-tt": {
@@ -241,7 +241,7 @@
  },
  "carousel-uc-saniye-kurali-tt": {
   "id": "6ac6b6af810b7f5f6090b340",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-15T12:30:00+03:00"
  },
  "007-ig": {
@@ -336,7 +336,7 @@
  },
  "kr-dy-hayvanlar-ig": {
   "id": "6ac91ffd57c4b87d9cfd45f8",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-13T17:00:00+03:00"
  },
  "kr-dy-hayvanlar-tt": {
