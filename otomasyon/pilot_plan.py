@@ -178,6 +178,66 @@ Kaynak: NIH · Mayo Clinic · Smithsonian
 Cevaplarını yaz, puanını yorumlara bırak: 5/5 mi? 👇 Ailece çözün, testi arkadaşına gönder ✈️
 Kaynak: NASA · NOAA · National Geographic
 #merakliFindik #meraktesti #genelkültür #çocuklaraBilim #anneBaba"""),
+ ("2026-10-17", "12:30", "hm-bitkiler", 7, 'Sinek kapan bitkisi sayabilir mi? 5 bitki sorusu', """Bir bitki sayı sayabilir mi? 🌱
+Sinek kapan, küstüm otu, 2.000 yıllık tohum… Bitkilerle ilgili 5 şaşırtıcı soru. Sofrada sorup birlikte tahmin edin!
+Kaynak: Kew Bahçeleri, Britannica, Smithsonian Magazine, National Geographic
+#merakliFindik #hiçmerakettinmi #bitkiler #çocuklaraBilim #anneBaba"""),
+ ("2026-10-17", "17:00", "mt-okyanus", 8, 'Okyanus testi: en derin nokta kaç metre?', """Okyanusun en derin noktası kaç metre? 🌊
+5 soruluk okyanus testi. Çocuğunuzla ayrı ayrı cevaplayın, kim kazandı? Puanınızı yorumlara yazın!
+Kaynak: NOAA Ocean Service, NOAA Fisheries, USGS
+#merakliFindik #meraktesti #okyanus #çocuklaraBilim #anneBaba"""),
+ ("2026-10-18", "17:00", "dy-bitkiler", 10, 'Ayçiçeği güneşi izler mi? Doğru mu yanlış mı?', """Ayçiçeği gerçekten güneşi izler mi? 🌻
+4 bitki bilgisi: hangisi doğru, hangisi yanlış? Kaydırmadan önce tahminini yaz, sonra puanını paylaş!
+Kaynak: Britannica, Science (2016), UC Davis, ABD Tarım Bakanlığı (USDA)
+#merakliFindik #doğrumuyanlışmı #bitkiler #çocuklaraBilim #anneBaba"""),
+ ("2026-10-19", "17:00", "hm-dunya", 7, "Dünya'nın merkezi ne kadar sıcak? 5 soru", """Ayağımızın altındaki Dünya ne kadar sıcak? 🌍
+Kıtalar, pusula, en derin kuyu ve Dünya'nın yaşı: 5 soru, 5 kısa cevap. En çok hangisi şaşırttı?
+Kaynak: NASA, USGS, NOAA, Smithsonian Magazine
+#merakliFindik #hiçmerakettinmi #dünya #çocuklaraBilim #anneBaba"""),
+ ("2026-10-20", "17:00", "mt-rekorlar", 8, 'Doğanın rekorları: en hızlı hayvan hangisi?', """Dünyanın en hızlı hayvanı çita değil! 🦅
+Doğanın 5 rekoru: en hızlı, en uzun, en küçük, en yaşlı, en büyük. Puanınızı yorumlara yazın, testi bir arkadaşınıza gönderin!
+Kaynak: ABD Milli Parklar Servisi, Britannica, Kew Bahçeleri, Science (2016)
+#merakliFindik #meraktesti #rekorlar #çocuklaraBilim #anneBaba"""),
+ ("2026-10-21", "17:00", "dy-dunya", 10, "Kuzey Kutbu'nun altında kara var mı? D mi Y mi?", """Kuzey Kutbu'nda ayağının altında kara var mı? 🧭
+4 Dünya bilgisi: biri Sahra Çölü'yle ilgili! Kaydırmadan önce tahminini yaz; kaç tanesini bildiniz?
+Kaynak: NOAA, NSIDC, NASA JPL, NASA Earth Observatory
+#merakliFindik #doğrumuyanlışmı #dünya #çocuklaraBilim #anneBaba"""),
+]
+
+# ---------- TikTok'a özel keşif kaydırmalıları (15:00; 2026-10-13 — TikTok'ta büyüme motoru carousel) ----------
+KARUSEL_TT = [
+ ("2026-10-14", "15:00", "dy-okyanus", 10, 'Denizyıldızı balık mı? 4 okyanus bilgisi: D mi Y mi?', """Denizyıldızı gerçekten bir balık mı? 🌊
+4 okyanus bilgisi: her birinde kaydırmadan önce tahminini yorumlara yaz, D mi Y mi? Çocuğunuzla yarışın, puanınızı yazın!
+Kaynak: NOAA Ocean Service, NOAA Fisheries, National Geographic
+#merakliFindik #doğrumuyanlışmı #okyanus #çocuklaraBilim #anneBaba"""),
+ ("2026-10-15", "15:00", "hm-bocekler", 7, 'Kelebekler tadı nereden alır? 5 böcek sorusu', """Kelebekler tadı nereden alır? Cevap sizi şaşırtacak 🦋
+Böceklerle ilgili 5 tuhaf soru ve kısa cevapları. Kaçını biliyordunuz? En şaşırtıcısını yorumlara yazın.
+Kaynak: AMNH, Natural History Museum, Britannica, ABD Milli Parklar Servisi
+#merakliFindik #hiçmerakettinmi #böcekler #çocuklaraBilim #anneBaba"""),
+ ("2026-10-16", "15:00", "mt-dinozorlar", 8, 'Dinozor testi: 5 sorudan kaçını bilirsin?', """Dinozor uzmanı kim: siz mi, çocuğunuz mu? 🦖
+5 soruluk test: kâğıt kalem alın, cevapları yazın, sonda puanınızı hesaplayın. 5 üzerinden puanınızı yorumlara yazın!
+Kaynak: Natural History Museum (Londra), AMNH, Britannica
+#merakliFindik #meraktesti #dinozorlar #çocuklaraBilim #anneBaba"""),
+ ("2026-10-17", "15:00", "dy-dinozorlar", 10, 'İnsanlar dinozorları gördü mü? Doğru mu yanlış mı?', """İnsanlar hiç dinozor gördü mü? 🦕
+4 dinozor bilgisi: biri bahçedeki kuşlarla ilgili! Kaydırmadan önce D mi Y mi, yorumlara yazın; kaç tanesini bildiniz?
+Kaynak: Natural History Museum (Londra), Smithsonian Human Origins
+#merakliFindik #doğrumuyanlışmı #dinozorlar #çocuklaraBilim #anneBaba"""),
+ ("2026-10-18", "15:00", "hm-gezegenler", 7, 'Hangi gezegen yan yatmış döner? 5 uzay sorusu', """Bir gezegen yan yatmış dönebilir mi? 🪐
+Mars'ın rengi, Satürn'ün halkaları, Neptün'ün yılı… Gezegenlerle ilgili 5 soru. Sıradaki soruyu yorumlara siz bırakın!
+Kaynak: NASA
+#merakliFindik #hiçmerakettinmi #gezegenler #çocuklaraBilim #anneBaba"""),
+ ("2026-10-19", "15:00", "mt-bocekler", 8, 'Böcek testi: dünyada kaç karınca var?', """Dünyada kaç karınca var? Tahmin edin 🐜
+5 soruluk böcek testi. Kâğıt kalem alın; sonda puanınızı hesaplayıp yorumlara yazın. Testi bir arkadaşınıza gönderin!
+Kaynak: ABD Orman Servisi, Natural History Museum, PNAS (2022), Smithsonian
+#merakliFindik #meraktesti #böcekler #çocuklaraBilim #anneBaba"""),
+ ("2026-10-20", "15:00", "dy-gezegenler", 10, "Venüs'te bir gün, bir yıldan uzun mu? D mi Y mi?", """Bir günün bir yıldan uzun sürdüğü gezegen var mı? 🪐
+4 gezegen bilgisi: kaydırmadan önce D mi Y mi, yorumlara yazın. Çocuğunuzla kim daha çok bildi?
+Kaynak: NASA
+#merakliFindik #doğrumuyanlışmı #gezegenler #çocuklaraBilim #anneBaba"""),
+ ("2026-10-21", "15:00", "hm-okyanus", 7, 'Okyanusta altın var mı? 5 deniz sorusu', """Denizin dibinde göl olabilir mi? 🌊
+Altın, gelgit, kendi ışığını yapan canlılar ve en uzun dağ sırası: okyanusla ilgili 5 soru. Sıradaki soruyu siz seçin!
+Kaynak: NOAA Ocean Service, NOAA Ocean Exploration
+#merakliFindik #hiçmerakettinmi #okyanus #çocuklaraBilim #anneBaba"""),
 ]
 
 # ---------- Kanca testleri (2026-10-09; sadece TikTok, 15:00; kaynak videos/K0N-*/, ses mevcut VO'dan tam cümleler) ----------
@@ -227,6 +287,11 @@ def build():
         for ch, meta, tag in ((IG, {"instagram": {"type": "post", "shouldShareToFeed": True}}, "ig"), (TT, {"tiktok": {"title": title}}, "tt")):
             P.append({"key": f"kr-{pid}-{tag}", "when": at, "label": f"Kaydırmalı {title} ({tag}, {n} kart)", "args": {"channelId": ch, "schedulingType": "automatic",
                 "mode": "customScheduled", "dueAt": at, "text": cap, "assets": imgs, "metadata": meta}})
+    for day, hm, pid, n, title, cap in KARUSEL_TT:
+        at = f"{day}T{hm}:00{TZ}"
+        imgs = [{"image": {"url": f"{BASE}/kr/{pid}-{k:02d}.jpg", "metadata": {"altText": f"{title} · kart {k}/{n} — {ALT}"}}} for k in range(1, n + 1)]
+        P.append({"key": f"kr-{pid}-tt", "when": at, "label": f"Kaydırmalı {title} (tt, {n} kart)", "args": {"channelId": TT, "schedulingType": "automatic",
+            "mode": "customScheduled", "dueAt": at, "text": cap, "assets": imgs, "metadata": {"tiktok": {"title": title}}}})
     for day, hm, kid, cover, title, cap in KANCA:
         at = f"{day}T{hm}:00{TZ}"
         P.append({"key": f"kanca-{kid}-tt", "when": at, "label": f"Kanca {kid} {title} (TikTok)", "args": {"channelId": TT, "schedulingType": "automatic",
