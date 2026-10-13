@@ -266,12 +266,12 @@
  },
  "story-007-c-cevap": {
   "id": "6ac6b6b2810b7f5f6090b387",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-14T21:30:00+03:00"
  },
  "story-008-a-soru": {
   "id": "6ac6b6b250a88771fef9e95d",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-15T10:00:00+03:00"
  },
  "008-ig": {
@@ -371,7 +371,7 @@
  },
  "kr-mt-dunya-tt": {
   "id": "6ac92000810582311aeb7d16",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-16T17:00:00+03:00"
  },
  "kanca-K01-tt": {
