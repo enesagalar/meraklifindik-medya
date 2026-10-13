@@ -371,7 +371,7 @@
  },
  "kr-mt-dunya-tt": {
   "id": "6ac92000810582311aeb7d16",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-16T17:00:00+03:00"
  },
  "kanca-K01-tt": {
@@ -423,5 +423,105 @@
   "id": "6aca5c14bba9419ccb0892d9",
   "status": "scheduled",
   "when": "2026-10-16T12:30:00+03:00"
+ },
+ "kr-dy-okyanus-tt": {
+  "id": "6ace79a49d848852704340fb",
+  "status": "scheduled",
+  "when": "2026-10-14T15:00:00+03:00"
+ },
+ "kr-hm-bocekler-tt": {
+  "id": "6ace79a49d84885270434124",
+  "status": "scheduled",
+  "when": "2026-10-15T15:00:00+03:00"
+ },
+ "kr-mt-dinozorlar-tt": {
+  "id": "6ace79a57bc02ca4b6c96f63",
+  "status": "scheduled",
+  "when": "2026-10-16T15:00:00+03:00"
+ },
+ "kr-hm-bitkiler-ig": {
+  "id": "6ace79a60e2628184671e5ca",
+  "status": "draft",
+  "when": "2026-10-17T12:30:00+03:00"
+ },
+ "kr-hm-bitkiler-tt": {
+  "id": "6ace79a60e2628184671e5f2",
+  "status": "draft",
+  "when": "2026-10-17T12:30:00+03:00"
+ },
+ "kr-dy-dinozorlar-tt": {
+  "id": "6ace79a7c75fa9d311e31332",
+  "status": "draft",
+  "when": "2026-10-17T15:00:00+03:00"
+ },
+ "kr-mt-okyanus-ig": {
+  "id": "6ace79a8f969cac3ed46d28b",
+  "status": "draft",
+  "when": "2026-10-17T17:00:00+03:00"
+ },
+ "kr-mt-okyanus-tt": {
+  "id": "6ace79a89d84885270434191",
+  "status": "draft",
+  "when": "2026-10-17T17:00:00+03:00"
+ },
+ "kr-hm-gezegenler-tt": {
+  "id": "6ace79a9f969cac3ed46d442",
+  "status": "draft",
+  "when": "2026-10-18T15:00:00+03:00"
+ },
+ "kr-dy-bitkiler-ig": {
+  "id": "6ace79a9c75fa9d311e3135c",
+  "status": "draft",
+  "when": "2026-10-18T17:00:00+03:00"
+ },
+ "kr-dy-bitkiler-tt": {
+  "id": "6ace79aa7bc02ca4b6c97019",
+  "status": "draft",
+  "when": "2026-10-18T17:00:00+03:00"
+ },
+ "kr-mt-bocekler-tt": {
+  "id": "6ace79ab0e2628184671e678",
+  "status": "draft",
+  "when": "2026-10-19T15:00:00+03:00"
+ },
+ "kr-hm-dunya-ig": {
+  "id": "6ace79ab0e2628184671e69d",
+  "status": "draft",
+  "when": "2026-10-19T17:00:00+03:00"
+ },
+ "kr-hm-dunya-tt": {
+  "id": "6ace79acbc13a192515d796d",
+  "status": "draft",
+  "when": "2026-10-19T17:00:00+03:00"
+ },
+ "kr-dy-gezegenler-tt": {
+  "id": "6ace79acbc13a192515d798b",
+  "status": "draft",
+  "when": "2026-10-20T15:00:00+03:00"
+ },
+ "kr-mt-rekorlar-ig": {
+  "id": "6ace79ad7bc02ca4b6c970af",
+  "status": "draft",
+  "when": "2026-10-20T17:00:00+03:00"
+ },
+ "kr-mt-rekorlar-tt": {
+  "id": "6ace79adbc13a192515d79cb",
+  "status": "draft",
+  "when": "2026-10-20T17:00:00+03:00"
+ },
+ "kr-hm-okyanus-tt": {
+  "id": "6ace79aebc13a192515d7a02",
+  "status": "draft",
+  "when": "2026-10-21T15:00:00+03:00"
+ },
+ "kr-dy-dunya-ig": {
+  "id": "6ace79afc75fa9d311e31417",
+  "status": "draft",
+  "when": "2026-10-21T17:00:00+03:00"
+ },
+ "kr-dy-dunya-tt": {
+  "id": "6ace79aff969cac3ed46d4e9",
+  "status": "draft",
+  "when": "2026-10-21T17:00:00+03:00"
  }
 }
