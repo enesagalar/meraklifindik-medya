@@ -276,7 +276,7 @@
  },
  "008-ig": {
   "id": "6ac6b6b4810b7f5f6090b3be",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-15T19:30:00+03:00"
  },
  "008-tt": {
@@ -356,7 +356,7 @@
  },
  "kr-dy-vucut-ig": {
   "id": "6ac91fffa5e49fef9bbd97c4",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-15T17:00:00+03:00"
  },
  "kr-dy-vucut-tt": {
