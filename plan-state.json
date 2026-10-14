@@ -291,17 +291,17 @@
  },
  "story-008-b-video": {
   "id": "6ac6b6b6c16f98d294cc4f46",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-15T19:40:00+03:00"
  },
  "story-008-c-cevap": {
   "id": "6ac6b6b6ef3f059ff9fb25f0",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-15T21:30:00+03:00"
  },
  "story-sezon2": {
   "id": "6ac6b6b8342c340c7ecf9095",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-16T13:00:00+03:00"
  },
  "kr-dy-hava-ig": {
@@ -366,7 +366,7 @@
  },
  "kr-mt-dunya-ig": {
   "id": "6ac92000ea458ceb9a557666",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-16T17:00:00+03:00"
  },
  "kr-mt-dunya-tt": {
@@ -416,7 +416,7 @@
  },
  "carousel-merak-defteri-008-ig": {
   "id": "6aca5c14f91f772d459a6e83",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-16T12:30:00+03:00"
  },
  "carousel-merak-defteri-008-tt": {
