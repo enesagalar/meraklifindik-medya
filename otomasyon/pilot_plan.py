@@ -79,10 +79,18 @@ Merak Defteri 8/8 tamam ✓ · Sezon 2: Vücudumuz geliyor — ilk soru: Neden e
 Kaynak: NOAA SciJinks · Met Office
 #merakliFindik #çocuklaraBilim #gökkuşağı #neden #anneBaba""",
 }
-TITLE = {"000": "Merhaba, ben Fındık! 🐿️", "001": "Gökyüzü neden mavi?", "002": "Gün batımı neden turuncu?", "003": "Bulutlar neden beyaz?",
+CAP["009"] = """Yağmur damlası gözyaşı şeklinde değil! 💧 Minik damlalar yuvarlaktır; büyüdükçe alttan çarpan hava onları yassıltır ve damla bir hamburger ekmeğine benzer. Çok büyürse paraşüt gibi açılıp parçalanır. 🍔
+Merak Defteri · ek sayfa 1/5 ✓ · Sıradaki: Dolu neden yazın yağar? Çocuğunuzun tahminini yorumlara yazın 👇 Bunu soran bir çocuk tanıyorsanız gönderin 🐿️
+Kaynak: USGS Water Science School
+#merakliFindik #çocuklaraBilim #neden #yağmur #anneBaba"""
+CAP["013"] = """Uçağın arkasındaki beyaz çizgi duman değil… buz! ✈️ Yükseklerde hava eksi kırk dereceden bile soğuk; motordan çıkan su buharı anında donar ve milyonlarca minik buz kristali gökyüzüne bir yol çizer.
+Merak Defteri · ek sayfa 5/5 ✓ · Sırada yepyeni bir sezon var: Vücudumuz! Bunu soran bir çocuk tanıyorsanız gönderin 🐿️
+Kaynak: NASA · NOAA JetStream
+#merakliFindik #çocuklaraBilim #neden #gökyüzü #anneBaba"""
+TITLE = {"013": 'Uçak izi duman mı?', "009": 'Yağmur damlası gözyaşı şeklinde mi?', "000": "Merhaba, ben Fındık! 🐿️", "001": "Gökyüzü neden mavi?", "002": "Gün batımı neden turuncu?", "003": "Bulutlar neden beyaz?",
          "004": "Bulutlar neden düşmüyor?", "005": "Yağmur nasıl oluşur?", "006": "Şimşek neden çakar?", "007": "Gök gürültüsü neden sonra gelir?",
          "008": "Gökkuşağı nasıl oluşur? (Sezon finali)"}
-COVER = {"000": 2000, "001": 2900, "002": 3900, "003": 4900, "004": 4000, "005": 4000, "006": 4800, "007": 4000, "008": 4400}
+COVER = {"013": 2600, "009": 1200, "000": 2000, "001": 2900, "002": 3900, "003": 4900, "004": 4000, "005": 4000, "006": 4800, "007": 4000, "008": 4400}
 
 # Revize video dosyaları (2026-10-09: açılış kuralı + −14 LUFS; eski v/NNN.mp4 kaldırıldı)
 VFILE = {n: n + "-r2" for n in ("003", "004", "005", "006", "007", "008")}
@@ -111,6 +119,10 @@ Kaynak: NOAA National Severe Storms Laboratory
 Hangi sayfa en sevdiğiniz oldu? Yorumlara yazın 👇 Kaydedin 📌
 Kaynak: NOAA SciJinks · Met Office
 #merakliFindik #çocuklaraBilim #neden #gökkuşağı #anneBaba"""),
+"carousel-merak-defteri-009": (6, "Merak Defteri · ek sayfa 1", """Yağmur damlası gözyaşı şeklinde mi? Merak Defteri'nin ek sayfası 📓
+Videoyu izlediniz mi? Kaydırın; akşam çocuğunuzla konuşmak için kaydedin 📌
+Kaynak: USGS Water Science School
+#merakliFindik #çocuklaraBilim #neden #yağmur #anneBaba"""),
 "tek-sence-neden": (0, "Sence neden?", """Bulutlarda tonlarca su var… peki neden üstümüze düşmüyor? ☁️
 A mı, B mi? Çocuğunuzun cevabını yorumlara yazın; doğru cevap akşamki videoda 🐿️
 #merakliFindik #neden #bulutlar #çocuklaraBilim #anneBaba"""),
@@ -145,6 +157,9 @@ DAYS = [
  ("2026-10-14", "carousel-merak-defteri-006", [("19:30", "007")], [("10:00", "story-007-a-soru"), ("19:40", "story-007-b-video"), ("21:30", "story-007-c-cevap")]),
  ("2026-10-15", "carousel-uc-saniye-kurali", [("19:30", "008")], [("10:00", "story-008-a-soru"), ("19:40", "story-008-b-video"), ("21:30", "story-008-c-cevap")]),
  ("2026-10-16", "carousel-merak-defteri-008", [], [("13:00", "story-sezon2")]),
+ ("2026-10-17", None, [("19:30", "009")], []),
+ ("2026-10-18", "carousel-merak-defteri-009", [], []),
+ ("2026-10-21", None, [("19:30", "013")], []),
 ]
 
 # ---------- Kaydırmalı formatlar (2026-10-09 kullanıcı kararı; kaynak studio/karusel/, görseller yayin/kr/<id>-NN.jpg, 4:5) ----------
