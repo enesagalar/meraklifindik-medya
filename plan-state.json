@@ -506,12 +506,12 @@
  },
  "kr-mt-rekorlar-tt": {
   "id": "6ace79adbc13a192515d79cb",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-20T17:00:00+03:00"
  },
  "kr-hm-okyanus-tt": {
   "id": "6ace79aebc13a192515d7a02",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-21T15:00:00+03:00"
  },
  "kr-dy-dunya-ig": {
@@ -523,5 +523,45 @@
   "id": "6ace79aff969cac3ed46d4e9",
   "status": "draft",
   "when": "2026-10-21T17:00:00+03:00"
+ },
+ "009-ig": {
+  "id": "6ad268e5b54530c2c99cf537",
+  "status": "scheduled",
+  "when": "2026-10-17T19:30:00+03:00"
+ },
+ "009-tt": {
+  "id": "6ad268e6ce370b4b16865e8f",
+  "status": "scheduled",
+  "when": "2026-10-17T19:30:00+03:00"
+ },
+ "009-yt": {
+  "id": "6ad268e6505728588837d9ce",
+  "status": "scheduled",
+  "when": "2026-10-17T19:30:00+03:00"
+ },
+ "carousel-merak-defteri-009-ig": {
+  "id": "6ad268e8b54530c2c99cf607",
+  "status": "scheduled",
+  "when": "2026-10-18T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-009-tt": {
+  "id": "6ad268e8238ad5651eaa149e",
+  "status": "scheduled",
+  "when": "2026-10-18T12:30:00+03:00"
+ },
+ "013-ig": {
+  "id": "6ad268e9ce370b4b16865f02",
+  "status": "scheduled",
+  "when": "2026-10-21T19:30:00+03:00"
+ },
+ "013-tt": {
+  "id": "6ad268ea238ad5651eaa14e4",
+  "status": "draft",
+  "when": "2026-10-21T19:30:00+03:00"
+ },
+ "013-yt": {
+  "id": "6ad268ebc5dca815991afb29",
+  "status": "scheduled",
+  "when": "2026-10-21T19:30:00+03:00"
  }
 }
