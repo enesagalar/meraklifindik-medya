@@ -496,7 +496,7 @@
  },
  "kr-dy-gezegenler-tt": {
   "id": "6ace79acbc13a192515d798b",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-20T15:00:00+03:00"
  },
  "kr-mt-rekorlar-ig": {
@@ -551,7 +551,7 @@
  },
  "013-ig": {
   "id": "6ad268e9ce370b4b16865f02",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-21T19:30:00+03:00"
  },
  "013-tt": {
@@ -588,5 +588,30 @@
   "id": "6ad269c6c5dca815991b2567",
   "status": "scheduled",
   "when": "2026-10-19T12:30:00+03:00"
+ },
+ "011-ig": {
+  "id": "6ad3814edd83363c4dd5c14b",
+  "status": "scheduled",
+  "when": "2026-10-19T19:30:00+03:00"
+ },
+ "011-tt": {
+  "id": "6ad3814e938409f1d08bb290",
+  "status": "scheduled",
+  "when": "2026-10-19T19:30:00+03:00"
+ },
+ "011-yt": {
+  "id": "6ad3814f938409f1d08bb2b1",
+  "status": "scheduled",
+  "when": "2026-10-19T19:30:00+03:00"
+ },
+ "carousel-merak-defteri-011-ig": {
+  "id": "6ad38150938409f1d08bb2f3",
+  "status": "scheduled",
+  "when": "2026-10-20T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-011-tt": {
+  "id": "6ad38150dd83363c4dd5c186",
+  "status": "scheduled",
+  "when": "2026-10-20T12:30:00+03:00"
  }
 }
