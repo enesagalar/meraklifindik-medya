@@ -516,7 +516,7 @@
  },
  "kr-dy-dunya-ig": {
   "id": "6ace79afc75fa9d311e31417",
-  "status": "scheduled",
+  "status": "draft",
   "when": "2026-10-21T17:00:00+03:00"
  },
  "kr-dy-dunya-tt": {
@@ -613,5 +613,30 @@
   "id": "6ad38150dd83363c4dd5c186",
   "status": "scheduled",
   "when": "2026-10-20T12:30:00+03:00"
+ },
+ "012-ig": {
+  "id": "6ad3835fae173d6e00bd39f2",
+  "status": "scheduled",
+  "when": "2026-10-20T19:30:00+03:00"
+ },
+ "012-tt": {
+  "id": "6ad3835f769b4579347ee2d5",
+  "status": "draft",
+  "when": "2026-10-20T19:30:00+03:00"
+ },
+ "012-yt": {
+  "id": "6ad383600a208cb32323e883",
+  "status": "scheduled",
+  "when": "2026-10-20T19:30:00+03:00"
+ },
+ "carousel-merak-defteri-012-ig": {
+  "id": "6ad38361dd83363c4dd64aef",
+  "status": "draft",
+  "when": "2026-10-21T12:30:00+03:00"
+ },
+ "carousel-merak-defteri-012-tt": {
+  "id": "6ad383610a208cb32323e8c6",
+  "status": "draft",
+  "when": "2026-10-21T12:30:00+03:00"
  }
 }
