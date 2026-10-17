@@ -491,12 +491,12 @@
  },
  "kr-hm-dunya-tt": {
   "id": "6ace79acbc13a192515d796d",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-19T17:00:00+03:00"
  },
  "kr-dy-gezegenler-tt": {
   "id": "6ace79acbc13a192515d798b",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-20T15:00:00+03:00"
  },
  "kr-mt-rekorlar-ig": {
@@ -551,7 +551,7 @@
  },
  "013-ig": {
   "id": "6ad268e9ce370b4b16865f02",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-21T19:30:00+03:00"
  },
  "013-tt": {
