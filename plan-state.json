@@ -496,7 +496,7 @@
  },
  "kr-dy-gezegenler-tt": {
   "id": "6ace79acbc13a192515d798b",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-20T15:00:00+03:00"
  },
  "kr-mt-rekorlar-ig": {
@@ -631,7 +631,7 @@
  },
  "carousel-merak-defteri-012-ig": {
   "id": "6ad38361dd83363c4dd64aef",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-21T12:30:00+03:00"
  },
  "carousel-merak-defteri-012-tt": {
