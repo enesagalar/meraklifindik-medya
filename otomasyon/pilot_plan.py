@@ -95,10 +95,14 @@ CAP["011"] = """Sahilde gündüz rüzgâr denizden eser, gece karadan! 🌊 Gün
 Merak Defteri · ek sayfa 3/5 ✓ · Sıradaki: Yağmurun kokusu nereden gelir? Tahmininizi yorumlara yazın 👇 Bunu soran bir çocuk tanıyorsanız gönderin 🐿️
 Kaynak: Met Office · NOAA JetStream
 #merakliFindik #çocuklaraBilim #neden #rüzgar #anneBaba"""
-TITLE = {"011": 'Sahilde rüzgâr neden yön değiştirir?', "010": 'Dolu neden yazın yağar?', "013": 'Uçak izi duman mı?', "009": 'Yağmur damlası gözyaşı şeklinde mi?', "000": "Merhaba, ben Fındık! 🐿️", "001": "Gökyüzü neden mavi?", "002": "Gün batımı neden turuncu?", "003": "Bulutlar neden beyaz?",
+CAP["012"] = """Yağmurun kokusu aslında yağmurdan gelmiyor! 🌧️ O koku topraktan gelir: topraktaki minicik canlıların ürettiği bir koku. Bilim insanları, damlaların çıkardığı minik kabarcıkların bu kokuyu havaya taşıdığını düşünüyor. Adı da var: petrikor!
+Merak Defteri · ek sayfa 4/5 ✓ · Sıradaki: Uçak izi duman mı? Tahmininizi yorumlara yazın 👇 Bunu soran bir çocuk tanıyorsanız gönderin 🐿️
+Kaynak: MIT News (2015) · Smithsonian Magazine
+#merakliFindik #çocuklaraBilim #neden #yağmur #anneBaba"""
+TITLE = {"012": 'Yağmurun kokusu nereden gelir?', "011": 'Sahilde rüzgâr neden yön değiştirir?', "010": 'Dolu neden yazın yağar?', "013": 'Uçak izi duman mı?', "009": 'Yağmur damlası gözyaşı şeklinde mi?', "000": "Merhaba, ben Fındık! 🐿️", "001": "Gökyüzü neden mavi?", "002": "Gün batımı neden turuncu?", "003": "Bulutlar neden beyaz?",
          "004": "Bulutlar neden düşmüyor?", "005": "Yağmur nasıl oluşur?", "006": "Şimşek neden çakar?", "007": "Gök gürültüsü neden sonra gelir?",
          "008": "Gökkuşağı nasıl oluşur? (Sezon finali)"}
-COVER = {"011": 400, "010": 100, "013": 2600, "009": 1200, "000": 2000, "001": 2900, "002": 3900, "003": 4900, "004": 4000, "005": 4000, "006": 4800, "007": 4000, "008": 4400}
+COVER = {"012": 600, "011": 400, "010": 100, "013": 2600, "009": 1200, "000": 2000, "001": 2900, "002": 3900, "003": 4900, "004": 4000, "005": 4000, "006": 4800, "007": 4000, "008": 4400}
 
 # Revize video dosyaları (2026-10-09: açılış kuralı + −14 LUFS; eski v/NNN.mp4 kaldırıldı)
 VFILE = {n: n + "-r2" for n in ("003", "004", "005", "006", "007", "008")}
@@ -139,6 +143,10 @@ Kaynak: NOAA National Severe Storms Laboratory
 Videoyu izlediniz mi? Kaydırın; akşam çocuğunuzla konuşmak için kaydedin 📌
 Kaynak: Met Office · NOAA JetStream
 #merakliFindik #çocuklaraBilim #neden #rüzgar #anneBaba"""),
+"carousel-merak-defteri-012": (6, "Merak Defteri · ek sayfa 4", """Yağmurun kokusu nereden gelir? Merak Defteri'nin ek sayfası 📓
+Videoyu izlediniz mi? Kaydırın; akşam çocuğunuzla konuşmak için kaydedin 📌
+Kaynak: MIT News · Smithsonian Magazine
+#merakliFindik #çocuklaraBilim #neden #yağmur #anneBaba"""),
 "tek-sence-neden": (0, "Sence neden?", """Bulutlarda tonlarca su var… peki neden üstümüze düşmüyor? ☁️
 A mı, B mi? Çocuğunuzun cevabını yorumlara yazın; doğru cevap akşamki videoda 🐿️
 #merakliFindik #neden #bulutlar #çocuklaraBilim #anneBaba"""),
@@ -175,9 +183,9 @@ DAYS = [
  ("2026-10-16", "carousel-merak-defteri-008", [], [("13:00", "story-sezon2")]),
  ("2026-10-17", None, [("19:30", "009")], []),
  ("2026-10-18", "carousel-merak-defteri-009", [("19:30", "010")], []),
- ("2026-10-21", None, [("19:30", "013")], []),
+ ("2026-10-21", "carousel-merak-defteri-012", [("19:30", "013")], []),
  ("2026-10-19", "carousel-merak-defteri-010", [("19:30", "011")], []),
- ("2026-10-20", "carousel-merak-defteri-011", [], []),
+ ("2026-10-20", "carousel-merak-defteri-011", [("19:30", "012")], []),
 ]
 
 # ---------- Kaydırmalı formatlar (2026-10-09 kullanıcı kararı; kaynak studio/karusel/, görseller yayin/kr/<id>-NN.jpg, 4:5) ----------
