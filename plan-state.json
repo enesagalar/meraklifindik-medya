@@ -551,7 +551,7 @@
  },
  "013-ig": {
   "id": "6ad268e9ce370b4b16865f02",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-21T19:30:00+03:00"
  },
  "013-tt": {
@@ -621,7 +621,7 @@
  },
  "012-tt": {
   "id": "6ad3835f769b4579347ee2d5",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-20T19:30:00+03:00"
  },
  "012-yt": {
@@ -636,7 +636,7 @@
  },
  "carousel-merak-defteri-012-tt": {
   "id": "6ad383610a208cb32323e8c6",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-21T12:30:00+03:00"
  }
 }
