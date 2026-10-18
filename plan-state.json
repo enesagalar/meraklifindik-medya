@@ -506,7 +506,7 @@
  },
  "kr-mt-rekorlar-tt": {
   "id": "6ace79adbc13a192515d79cb",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-20T17:00:00+03:00"
  },
  "kr-hm-okyanus-tt": {
@@ -516,7 +516,7 @@
  },
  "kr-dy-dunya-ig": {
   "id": "6ace79afc75fa9d311e31417",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-21T17:00:00+03:00"
  },
  "kr-dy-dunya-tt": {
