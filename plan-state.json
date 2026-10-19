@@ -521,7 +521,7 @@
  },
  "kr-dy-dunya-tt": {
   "id": "6ace79aff969cac3ed46d4e9",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-21T17:00:00+03:00"
  },
  "009-ig": {
@@ -556,7 +556,7 @@
  },
  "013-tt": {
   "id": "6ad268ea238ad5651eaa14e4",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-21T19:30:00+03:00"
  },
  "013-yt": {
@@ -646,7 +646,7 @@
  },
  "014-tt": {
   "id": "6ad5321ea48c8f8371b3559e",
-  "status": "draft",
+  "status": "scheduled",
   "when": "2026-10-22T19:30:00+03:00"
  },
  "014-yt": {
