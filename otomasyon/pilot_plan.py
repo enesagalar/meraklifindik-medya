@@ -104,10 +104,15 @@ Merak Defteri · Vücudumuz · sayfa 1/8 ✓ · Sıradaki: Hıçkırık neden ol
 Tahminini yorumlara yaz 👇 Bunu merak eden birine gönder 🐿️
 Kaynak: Library of Congress · Cleveland Clinic · NPR
 #merakliFindik #bilim #neden #esneme #vücudumuz"""
-TITLE = {"014": "Neden esneriz?", "012": 'Yağmurun kokusu nereden gelir?', "011": 'Sahilde rüzgâr neden yön değiştirir?', "010": 'Dolu neden yazın yağar?', "013": 'Uçak izi duman mı?', "009": 'Yağmur damlası gözyaşı şeklinde mi?', "000": "Merhaba, ben Fındık! 🐿️", "001": "Gökyüzü neden mavi?", "002": "Gün batımı neden turuncu?", "003": "Bulutlar neden beyaz?",
+CAP["015"] = """Hıçkırık, içinde çarpan bir kapının sesi! 🚪 Diyafram kası aniden kasılır, hava içeri dolar, ses tellerin birden kapanır: hık!
+Bir adam bu kapıyı tam 68 yıl çarptı; çoğumuzunki birkaç dakikada geçer. 48 saati geçerse doktora görünmek gerekir.
+Sen hangi kapıyı tahmin etmiştin? 👇
+Kaynak: Mayo Clinic · Scientific American · Guinness World Records · NHS
+#merakliFindik #bilim #neden #hıçkırık #vücudumuz"""
+TITLE = {"015": "Hıçkırık, içinde çarpan bir kapı!", "014": "Neden esneriz?", "012": 'Yağmurun kokusu nereden gelir?', "011": 'Sahilde rüzgâr neden yön değiştirir?', "010": 'Dolu neden yazın yağar?', "013": 'Uçak izi duman mı?', "009": 'Yağmur damlası gözyaşı şeklinde mi?', "000": "Merhaba, ben Fındık! 🐿️", "001": "Gökyüzü neden mavi?", "002": "Gün batımı neden turuncu?", "003": "Bulutlar neden beyaz?",
          "004": "Bulutlar neden düşmüyor?", "005": "Yağmur nasıl oluşur?", "006": "Şimşek neden çakar?", "007": "Gök gürültüsü neden sonra gelir?",
          "008": "Gökkuşağı nasıl oluşur? (Sezon finali)"}
-COVER = {"014": 2900, "012": 600, "011": 400, "010": 100, "013": 2600, "009": 1200, "000": 2000, "001": 2900, "002": 3900, "003": 4900, "004": 4000, "005": 4000, "006": 4800, "007": 4000, "008": 4400}
+COVER = {"015": 600, "014": 2900, "012": 600, "011": 400, "010": 100, "013": 2600, "009": 1200, "000": 2000, "001": 2900, "002": 3900, "003": 4900, "004": 4000, "005": 4000, "006": 4800, "007": 4000, "008": 4400}
 
 # Revize video dosyaları (2026-10-09: açılış kuralı + −14 LUFS; eski v/NNN.mp4 kaldırıldı)
 VFILE = {n: n + "-r2" for n in ("003", "004", "005", "006", "007", "008")}
@@ -200,6 +205,7 @@ DAYS = [
  ("2026-10-20", "carousel-merak-defteri-011", [("19:30", "012")], []),
  ("2026-10-22", None, [("19:30", "014")], []),
  ("2026-10-23", "carousel-merak-defteri-014", [], [("10:00", "story-014")]),
+ ("2026-10-24", None, [("19:30", "015")], []),
 ]
 
 # ---------- Kaydırmalı formatlar (2026-10-09 kullanıcı kararı; kaynak studio/karusel/, görseller yayin/kr/<id>-NN.jpg, 4:5) ----------
@@ -307,6 +313,38 @@ Kaynak: NOAA SciJinks
 #merakliFindik #bulutlar #neden #bilim #bilim"""),
 ]
 
+# ---------- Quiz kısaları (format v3, Remotion QuizKisa, seslendirmesiz; IG Reels + TT + YT Shorts) ----------
+QUIZ = [
+ ("2026-10-24", "17:00", "quiz-Q1", 0, "Doğru mu yanlış mı? Hayvanlar", """"Bütün memeliler canlı yavru doğurur" Doğru mu, yanlış mı? 🤔 3 iddia, cevaplar videoda.
+Kaç tanesini bildin? Puanını yorumlara yaz 👇
+Kaynak: NOAA · Smithsonian · U.S. Fish & Wildlife Service
+#merakliFindik #doğrumuyanlışmı #bilim #hayvanlar #merak"""),
+ ("2026-10-25", "17:00", "quiz-Q2", 0, "Doğru mu yanlış mı? Uzay", """"Merkür’de su buzu bulunmaz" Doğru mu, yanlış mı? 🤔 3 iddia, cevaplar videoda.
+Kaç tanesini bildin? Puanını yorumlara yaz 👇
+Kaynak: NASA · NASA · NASA
+#merakliFindik #doğrumuyanlışmı #bilim #uzay #merak"""),
+ ("2026-10-26", "17:00", "quiz-Q3", 0, "Doğru mu yanlış mı? Mutfaktaki bitkiler", """"Yer fıstığı aslında sert kabuklu bir meyvedir" Doğru mu, yanlış mı? 🤔 3 iddia, cevaplar videoda.
+Kaç tanesini bildin? Puanını yorumlara yaz 👇
+Kaynak: NC State Üniversitesi · NIH NCCIH · Kew
+#merakliFindik #doğrumuyanlışmı #bilim #bitkiler #merak"""),
+ ("2026-10-27", "17:00", "quiz-Q4", 0, "Doğru mu yanlış mı? Okyanus", """"Narvalın uzun çıkıntısı bir boynuzdur" Doğru mu, yanlış mı? 🤔 3 iddia, cevaplar videoda.
+Kaç tanesini bildin? Puanını yorumlara yaz 👇
+Kaynak: NOAA · American Museum of Natural History · NOAA
+#merakliFindik #doğrumuyanlışmı #bilim #okyanus #merak"""),
+ ("2026-10-28", "17:00", "quiz-Q5", 0, "Doğru mu yanlış mı? Bitkiler", """"Muz bitkisinin gövdesi odunsudur" Doğru mu, yanlış mı? 🤔 3 iddia, cevaplar videoda.
+Kaç tanesini bildin? Puanını yorumlara yaz 👇
+Kaynak: Kew · Kew · NOAA
+#merakliFindik #doğrumuyanlışmı #bilim #bitkiler #merak"""),
+ ("2026-10-29", "17:00", "quiz-Q6", 0, "Doğru mu yanlış mı? Mantarlar", """"Mantarlar bitkiler âlemindedir" Doğru mu, yanlış mı? 🤔 3 iddia, cevaplar videoda.
+Kaç tanesini bildin? Puanını yorumlara yaz 👇
+Kaynak: Smithsonian Gardens · Kew · National Wildlife Federation
+#merakliFindik #doğrumuyanlışmı #bilim #mantarlar #merak"""),
+ ("2026-10-30", "17:00", "quiz-Q7", 0, "Doğru mu yanlış mı? İcatlar", """"Balonlu naylon, paketleme için icat edildi" Doğru mu, yanlış mı? 🤔 3 iddia, cevaplar videoda.
+Kaç tanesini bildin? Puanını yorumlara yaz 👇
+Kaynak: Smithsonian · Smithsonian Lemelson Center · Smithsonian
+#merakliFindik #doğrumuyanlışmı #bilim #icatlar #merak"""),
+]
+
 def yt_desc(t):
     lines = [l for l in t.splitlines() if "yorum" not in l.lower()]
     tags = lines.pop() if lines and lines[-1].startswith("#") else ""
@@ -348,6 +386,16 @@ def build():
         imgs = [{"image": {"url": f"{BASE}/kr/{pid}-{k:02d}.jpg", "metadata": {"altText": f"{title} · kart {k}/{n} — {ALT}"}}} for k in range(1, n + 1)]
         P.append({"key": f"kr-{pid}-tt", "when": at, "label": f"Kaydırmalı {title} (tt, {n} kart)", "args": {"channelId": TT, "schedulingType": "automatic",
             "mode": "customScheduled", "dueAt": at, "text": cap, "assets": imgs, "metadata": {"tiktok": {"title": title}}}})
+    for day, hm, qid, cover, title, cap in QUIZ:
+        at = f"{day}T{hm}:00{TZ}"
+        v = {"video": {"url": f"{BASE}/v/{qid}.mp4", "metadata": {"thumbnailOffset": cover}}}
+        P.append({"key": f"{qid}-ig", "when": at, "label": f"Quiz Reels {title}", "args": {"channelId": IG, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at,
+            "text": cap, "assets": [v], "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True, "isAiGenerated": False}}}})
+        P.append({"key": f"{qid}-tt", "when": at, "label": f"Quiz TikTok {title}", "args": {"channelId": TT, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at,
+            "text": cap, "assets": [v], "metadata": {"tiktok": {"isAiGenerated": False}}}})
+        P.append({"key": f"{qid}-yt", "when": at, "label": f"Quiz Shorts {title}", "args": {"channelId": YT, "schedulingType": "automatic", "mode": "customScheduled", "dueAt": at,
+            "text": yt_desc(cap), "assets": [v], "metadata": {"youtube": {"title": f"{title} | Meraklı Fındık #shorts", "categoryId": "27",
+            "privacy": "public", "madeForKids": False, "isAiGenerated": False, "notifySubscribers": True, "embeddable": True, "license": "youtube"}}}})
     for day, hm, kid, cover, title, cap in KANCA:
         at = f"{day}T{hm}:00{TZ}"
         P.append({"key": f"kanca-{kid}-tt", "when": at, "label": f"Kanca {kid} {title} (TikTok)", "args": {"channelId": TT, "schedulingType": "automatic",
