@@ -153,6 +153,10 @@ Kaynak: Met Office · NOAA JetStream
 Videoyu izlediniz mi? Kaydırın, sonra kaydedin 📌
 Kaynak: MIT News · Smithsonian Magazine
 #merakliFindik #bilim #neden #yağmur #merak"""),
+"carousel-merak-defteri-014": (6, "Merak Defteri · Vücudumuz 1", """Esneme gerçekten bulaşıcı mı? 🥱 Merak Defteri'nin Vücudumuz sayfası 1 📓
+Sence en şaşırtıcı kart hangisi? Yorumlara yaz 👇 Kaydet 📌
+Kaynak: Library of Congress · Cleveland Clinic · NPR
+#merakliFindik #bilim #neden #esneme #merak"""),
 "tek-sence-neden": (0, "Sence neden?", """Bulutlarda tonlarca su var… peki neden üstümüze düşmüyor? ☁️
 A mı, B mi? Cevabınızı yorumlara yazın; doğru cevap akşamki videoda 🐿️
 #merakliFindik #neden #bulutlar #bilim #merak"""),
@@ -195,6 +199,7 @@ DAYS = [
  ("2026-10-19", "carousel-merak-defteri-010", [("19:30", "011")], []),
  ("2026-10-20", "carousel-merak-defteri-011", [("19:30", "012")], []),
  ("2026-10-22", None, [("19:30", "014")], []),
+ ("2026-10-23", "carousel-merak-defteri-014", [], [("10:00", "story-014")]),
 ]
 
 # ---------- Kaydırmalı formatlar (2026-10-09 kullanıcı kararı; kaynak studio/karusel/, görseller yayin/kr/<id>-NN.jpg, 4:5) ----------
